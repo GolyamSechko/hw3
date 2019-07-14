@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-#define PRINT(msg)\
+#define LOG(msg)\
 cout << "msg: " << msg << ";\n"\
 << "line: " << __LINE__ << ";\n"\
 << "file: " << __FILE__ << ";\n"\
@@ -10,6 +10,6 @@ cout << "msg: " << msg << ";\n"\
 
 int main()
 {    
-    PRINT("c++ hw");
+    LOG("c++ hw");
     return 0;
 }
